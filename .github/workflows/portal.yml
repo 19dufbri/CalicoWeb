@@ -27,5 +27,6 @@ jobs:
         cd portal
         npm install
         npm run build
+        rm -rf ../portal-live
+        mkdir ../portal-live
         cp build/* ../portal-live/
-        
