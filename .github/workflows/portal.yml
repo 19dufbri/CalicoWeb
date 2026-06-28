@@ -37,7 +37,7 @@ jobs:
         npm run build
         rm -rf ../portal-live
         mkdir ../portal-live
-        cp -r build/* ../portal-live/
+        cp -r build/client/* ../portal-live/
     - name: Setup Pages
       uses: actions/configure-pages@v5
     - name: Upload artifact
