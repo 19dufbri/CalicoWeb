@@ -2,14 +2,14 @@ import { NavLink } from 'react-router';
 import './header.css'
 
 const tabs = [
-  { label: "Home", path: "/" },
-  { label: "Contact", path: "/contact" },
+  { label: "Home", path: "" },
+  { label: "Contact", path: "contact" },
 ]
 
 export function BrandHeader() {
   return (
     <header className='site-header'>
-      <img id='site-logo' src='/logo.png'/>
+      <img id='site-logo' src='logo.png'/>
       <h1 className='fg-1'>Calico Goods</h1>
       <nav>
         {tabs.map(tab => (
