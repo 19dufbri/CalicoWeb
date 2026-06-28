@@ -12,7 +12,7 @@ import "./app.css";
 import { BrandHeader } from "./layout/header";
 import { SiteFooter } from "./layout/footer";
 
-function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -37,11 +37,7 @@ function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return (
-    <Layout activeTab="Home">
-      <Outlet />
-    </Layout>
-  );
+  return <Outlet />;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

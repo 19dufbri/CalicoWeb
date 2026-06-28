@@ -9,7 +9,7 @@ export function HomePage() {
       <span className="eyebrow">Console repair & resale</span>
       <h2 className="hero-text">Restored.<br />Tested.<br /><em>Yours.</em></h2>
       <p className='mw-500'>We breathe new life into classic and modern consoles — repaired by hand, tested until it plays like the day it shipped, sold with confidence.</p>
-      <button className='mt-2' onClick={() => navigate('/listings')}>Browse Listings</button>
+      <button className='mt-2' onClick={() => window.open('https://www.ebay.com/str/calicogoods', '_blank')}>Browse Listings</button>
 
       <div className='separator'></div>
 

@@ -3,7 +3,6 @@ import './header.css'
 
 const tabs = [
   { label: "Home", path: "/" },
-  { label: "Listings", path: "/listings" },
   { label: "Contact", path: "/contact" },
 ]
 
