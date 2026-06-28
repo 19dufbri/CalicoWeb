@@ -1,0 +1,5 @@
+target
+portal/build
+portal/node_modules
+.idea
+.react-router

@@ -1,0 +1,10 @@
+[package]
+name = "CalicoWeb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.8.9", features = [""] }
+rspc = "0.4.1"
+specta = "1.0.5"
+sqlx = "0.9.0"

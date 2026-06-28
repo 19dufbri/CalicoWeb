@@ -1,0 +1,19 @@
+.fg-1 {
+  flex-grow: 1;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.color-muted {
+  color: var(--color-muted);
+}
+
+.mw-500 {
+  max-width: 500px;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
