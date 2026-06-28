@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [reactRouter()],
-  base: '',
+  base: './',
   resolve: {
     tsconfigPaths: true,
   },

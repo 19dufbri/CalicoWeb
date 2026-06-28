@@ -2,8 +2,8 @@ import { NavLink } from 'react-router';
 import './header.css'
 
 const tabs = [
-  { label: "Home", path: "" },
-  { label: "Contact", path: "contact" },
+  { label: "Home", path: "./" },
+  { label: "Contact", path: "./contact" },
 ]
 
 export function BrandHeader() {
